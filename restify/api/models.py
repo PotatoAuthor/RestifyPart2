@@ -9,3 +9,4 @@ class CustomUser(AbstractUser):
     avatar = models.ImageField(upload_to='avatar/', blank=True, null=True)
     phone_num = models.IntegerField(blank=True, null=True)
     birth_date = models.DateField(blank=True, null=True)
+    is_host = models.BooleanField(default=False)

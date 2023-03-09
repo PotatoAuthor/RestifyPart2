@@ -40,30 +40,39 @@
 - [ ] read notif and clear
 
 ## Models to add
-- [ ] Property
-    1. [ ] Pictures
-    2. [ ] Name
-    3. [ ] Address
-    4. [ ] Date Range
-    5. [ ] Number of guests
-    6. [ ] Beds & Baths
-    7. [ ] Amenities
-    8. [ ] Description
-    9. [ ] Owner
+- [x] Property
+    1. [x] Pictures
+    2. [x] Address
+    3. [x] Date Range
+    4. [x] Number of guests
+    5. [x] Beds & Baths
+    6. [x] Amenities
+    7. [x] Description
+    8. [x] Owner
 
-- [ ] User (inherited from AbstractUser)
+- [x] User (inherited from AbstractUser)
     1. [x] first name
     2. [x] last name
     3. [x] username
-    4. [ ] avatar
+    4. [x] avatar
     5. [x] password
-    6. [ ] phone number
+    6. [x] phone number
     7. [x] email
-    8. [ ] date of birth
+    8. [x] date of birth
 
-- [ ] Reservation
-    1. [ ] user
-    2. [ ] status
-    3. [ ] property
+- [x] Reservation
+    1. [x] user
+    2. [x] status
+    3. [x] property
+
+- [ ] UserComments
+    1. [ ] commenter
+    2. [ ] user
+    3. [ ] content
+
+- [ ] PropertyComments
+    1. [ ] commenter
+    2. [ ] property
+    3. [ ] content
 
 ## Tests to add
