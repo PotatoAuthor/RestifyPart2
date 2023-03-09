@@ -59,20 +59,21 @@
     6. [x] phone number
     7. [x] email
     8. [x] date of birth
+    8. [x] is host
 
 - [x] Reservation
     1. [x] user
     2. [x] status
     3. [x] property
 
-- [ ] UserComments
-    1. [ ] commenter
-    2. [ ] user
-    3. [ ] content
+- [x] UserComments
+    1. [x] commenter
+    2. [x] user
+    3. [x] content
 
-- [ ] PropertyComments
-    1. [ ] commenter
-    2. [ ] property
-    3. [ ] content
+- [x] PropertyComments
+    1. [x] commenter
+    2. [x] property
+    3. [x] content
 
 ## Tests to add
