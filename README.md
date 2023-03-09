@@ -52,13 +52,13 @@
     9. [ ] Owner
 
 - [ ] User (inherited from AbstractUser)
-    1. [ ] first name
-    2. [ ] last name
-    3. [ ] username
-    4. [ ] profile picture
-    5. [ ] password
+    1. [x] first name
+    2. [x] last name
+    3. [x] username
+    4. [ ] avatar
+    5. [x] password
     6. [ ] phone number
-    7. [ ] email
+    7. [x] email
     8. [ ] date of birth
 
 - [ ] Reservation
