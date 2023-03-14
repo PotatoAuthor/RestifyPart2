@@ -1,6 +1,6 @@
 from django.db import models
 from django.contrib.auth import get_user_model
-from .property import PropertyModel
+from ..properties.models.property import PropertyModel
 
 
 # TODO Change - merge comment models
