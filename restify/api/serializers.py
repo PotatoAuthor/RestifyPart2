@@ -2,11 +2,11 @@ from django.shortcuts import render
 from rest_framework.serializers import ModelSerializer, CharField, ValidationError
 from django.contrib.auth import get_user_model
 
+
 # Create your views here.
 
 class UserSerializer(ModelSerializer):
     password2 = CharField(write_only=True, required=True)
-    
     class Meta:
         User = get_user_model()
         model = User
