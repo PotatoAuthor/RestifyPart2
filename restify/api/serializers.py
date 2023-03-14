@@ -4,10 +4,10 @@ from django.conf import settings
 from .models import CustomUser
 from django.contrib.auth import get_user_model
 
+
 # Create your views here.
 
 class UserSerializer(ModelSerializer):
-    
     class Meta:
         User = get_user_model()
         model = User

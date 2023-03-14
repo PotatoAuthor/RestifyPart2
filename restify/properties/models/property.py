@@ -1,6 +1,7 @@
 from django.db.models import Model, ImageField, CharField, DateField, IntegerField, ForeignKey, CASCADE
 from django.contrib.auth import get_user_model
 
+
 # Create your models here.
 
 class PropertyModel(Model):
