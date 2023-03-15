@@ -1,24 +1,24 @@
 # CSC309 Restify Group Project
 
 ## Endpoints To add
-- [ ] login & logout (token authentication)
-- [ ] create profile
-- [ ] update profile
+- [x] login & logout (token authentication)
+- [x] create profile
+- [x] update profile
 - [ ] (OPTIONAL) view profile
 
-- [ ] create property
-- [ ] update property
+- [x] create property
+- [x] update property
 - [ ] (OPTIONAL) view property details
 
-- [ ] property list
-    - [ ] Filters
-        1. [ ] location
-        2. [ ] date range
-        3. [ ] price range
-        4. [ ] number of guests
-    - [ ] Order-By
-        1. [ ] price
-        2. [ ] start date
+- [x] property list
+    - [x] Filters
+        1. [x] location
+        2. [x] date range
+        3. [x] price range
+        4. [x] number of guests
+    - [x] Order-By
+        1. [x] price
+        2. [x] start date
 
 - [ ] reservations list (with filters)
     1. [ ] user type
