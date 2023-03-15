@@ -9,8 +9,8 @@ class CommentsCreateAPIView(CreateAPIView):
     queryset = Comments.objects.all()
     pagination_class = CommentsPageNumberPagination
 
-    def perform_create(self, serializer):
-        serializer.save(author=serializer.context.get('request').user)
+    # def perform_create(self, serializer):
+    #     serializer.save(author=serializer.context.get('request').user)
 
 
 class CommentsListAPIView(ListAPIView):
