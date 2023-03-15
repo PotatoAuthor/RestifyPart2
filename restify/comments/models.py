@@ -1,16 +1,12 @@
 from django.db import models
 from django.contrib.auth import get_user_model
-from ..properties.models.property import PropertyModel
+from django.contrib.contenttypes.models import ContentType
+from django.contrib.contenttypes.fields import GenericForeignKey
 
 
-# TODO Change - merge comment models
-class UserComments(models.Model):
-    commenter = models.ForeignKey(get_user_model(), on_delete=models.CASCADE, null=True)
-    user = models.ForeignKey(get_user_model(), on_delete=models.CASCADE, null=True)
-    content = models.CharField()
-
-
-class PropertyComments(models.Model):
-    commenter = models.ForeignKey(get_user_model, on_delete=models.CASCADE, null=True)
-    property = models.ForeignKey(PropertyModel, on_delete=models.CASCADE, null=True)
-    content = models.CharField()
+class Comments(models.Model):
+    content = models.CharField(max_length=200)
+    author = models.ForeignKey(get_user_model(), on_delete=models.CASCADE, null=True)
+    address_type = models.ForeignKey(ContentType, on_delete=models.CASCADE)
+    address_id = models.PositiveIntegerField()
+    address_object = GenericForeignKey("address_type", "address_id")

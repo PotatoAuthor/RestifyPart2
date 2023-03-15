@@ -1,24 +1,28 @@
 # CSC309 Restify Group Project
 
 ## Endpoints To add
-- [ ] login & logout (token authentication)
-- [ ] create profile
-- [ ] update profile
+- [x] login & logout (token authentication)
+- [x] create profile
+- [x] update profile
+- [x] login & logout (token authentication)
+- [x] create profile
+- [x] update profile
 - [ ] (OPTIONAL) view profile
 
-- [ ] create property
-- [ ] update property
+- [x] create property
+- [x] update property
+- [x] delete property
 - [ ] (OPTIONAL) view property details
 
-- [ ] property list
-    - [ ] Filters
-        1. [ ] location
-        2. [ ] date range
-        3. [ ] price range
-        4. [ ] number of guests
-    - [ ] Order-By
-        1. [ ] price
-        2. [ ] start date
+- [x] property list
+    - [x] Filters
+        1. [x] location
+        2. [x] date range
+        3. [x] price range
+        4. [x] number of guests
+    - [x] Order-By
+        1. [x] price
+        2. [x] start date
 
 - [ ] reservations list (with filters)
     1. [ ] user type
@@ -42,38 +46,39 @@
 ## Models to add
 - [x] Property
     1. [x] Pictures
-    2. [x] Address
-    3. [x] Date Range
-    4. [x] Number of guests
-    5. [x] Beds & Baths
+    2. [x] Address *
+    3. [x] Date Range *
+    4. [x] Number of guests *
+    5. [x] Beds & Baths *
     6. [x] Amenities
     7. [x] Description
-    8. [x] Owner
+    8. [x] Owner *
 
 - [x] User (inherited from AbstractUser)
     1. [x] first name
     2. [x] last name
-    3. [x] username
+    3. [x] username *
     4. [x] avatar
-    5. [x] password
-    6. [x] phone number
+    5. [x] password *
+    6. [x] phone number *
     7. [x] email
     8. [x] date of birth
-    8. [x] is host
+    8. [x] is host *
 
 - [x] Reservation
-    1. [x] user
-    2. [x] status
-    3. [x] property
+    1. [x] user *
+    2. [x] status *
+    3. [x] property *
 
-- [x] UserComments
-    1. [x] commenter
-    2. [x] user
-    3. [x] content
+- [x] Comments
+    1. [x] author *
+    2. [x] parent *
+    3. [x] content *
 
-- [x] PropertyComments
-    1. [x] commenter
-    2. [x] property
-    3. [x] content
+- [x] Notifications
+    1. [x] User *
+    2. [x] Content *
+
+### \* mandetory fields
 
 ## Tests to add
