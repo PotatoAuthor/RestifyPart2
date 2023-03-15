@@ -1,7 +1,7 @@
 from django.urls import path
 from django.contrib import admin
 
-from .views import CommentsListAPIView, CommentsCreateAPIView, CommentsDeleteAPIView
+from .views import CommentsListAPIView, CommentsCreateAPIView
 
 app_name = 'comments'
 
