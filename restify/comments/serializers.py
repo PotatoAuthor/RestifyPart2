@@ -8,5 +8,16 @@ class CommentsSerializer(ModelSerializer):
         fields = [
             'author',
             'content',
-            'parent'
+            'address_type',
+            'address_id'
+        ]
+
+
+class CommentsSerializerCreate(ModelSerializer):
+    class Meta:
+        model = Comments
+        fields = [
+            'content',
+            'address_type',
+            'address_id'
         ]
