@@ -8,6 +8,7 @@ class PropertyModel(Model):
     pics = ImageField(upload_to='images/', blank=True, null=True)
     address = CharField(max_length=200)
     country = CharField(max_length=50)
+    price = IntegerField()
     start_date = DateField()
     end_date = DateField()
     num_guests = IntegerField()

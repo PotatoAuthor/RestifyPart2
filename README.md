@@ -67,14 +67,9 @@
     2. [x] status *
     3. [x] property *
 
-- [x] UserComments
-    1. [x] commenter *
-    2. [x] user *
-    3. [x] content *
-
-- [x] PropertyComments
-    1. [x] commenter *
-    2. [x] property *
+- [x] Comments
+    1. [x] author *
+    2. [x] parent *
     3. [x] content *
 
 - [x] Notifications
