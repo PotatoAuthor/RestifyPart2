@@ -7,7 +7,7 @@ from django.contrib.auth import get_user_model
 class PropertyModel(Model):
     pics = ImageField(upload_to='images/', blank=True, null=True)
     address = CharField(max_length=200)
-    country = CharField
+    country = CharField(max_length=50)
     start_date = DateField()
     end_date = DateField()
     num_guests = IntegerField()
