@@ -6,8 +6,9 @@
 - [x] update profile
 - [ ] (OPTIONAL) view profile
 
-- [ ] create property
-- [ ] update property
+- [x] create property
+- [x] update property
+- [x] delete property
 - [ ] (OPTIONAL) view property details
 
 - [ ] property list
